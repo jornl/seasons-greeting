@@ -26,7 +26,7 @@ createInertiaApp({
       <StrictMode>
         <ThemeProvider
           defaultTheme={
-            route().current() === "seasons.show" ? "christmas" : "system"
+            route().current() === "season.show" ? "christmas" : "system"
           }
           storageKey="sb-react-daisyui-preview-theme"
         >
