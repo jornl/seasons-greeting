@@ -16,7 +16,8 @@ export default function Show({ season, year }: ShowProps) {
         <h2 className="mb-2">Julehilsen fra Jørn og Anne-Berit</h2>
         <p className="mt-1">
           Tusen takk for alle de flotte opplevelsene dere har gitt oss i året
-          som har gått! Med ønske om en riktig god jul og et fantastisk nytt år.
+          som har gått! Vi ønsker dere en god jul og et fantastisk nytt år!
+          🎅🎄🎉
         </p>
 
         <div>
