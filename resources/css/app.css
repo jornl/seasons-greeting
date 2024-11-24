@@ -1,3 +1,9 @@
+@import url(https://fonts.bunny.net/css?family=mountains-of-christmas:700);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-festive {
+    font-family: 'Mountains of Christmas', display, serif;
+}

@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('seasons', function (Blueprint $table) {
             $table->id();
+            $table->unique(['season', 'year']);
+            $table->string('season');
+            $table->integer('year');
+
             $table->timestamps();
         });
     }

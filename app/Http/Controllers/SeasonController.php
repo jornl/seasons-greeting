@@ -34,9 +34,13 @@ class SeasonController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Season $season)
+    public function show($season, $year)
     {
-        //
+        Season::where('season', $season)
+            ->where('year', $year)
+            ->firstOrFail();
+
+        return inertia('Seasons/Show', ['season' => $season,  'year' => $year]);
     }
 
     /**

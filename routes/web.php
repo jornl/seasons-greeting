@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SeasonController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -15,6 +14,10 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('jul/{year}', [SeasonController::class, 'show']);
+Route::get('jul/{year}', function () {
+    return to_route('season.show', ['season' => 'jul', 'year' => '2024']);
+});
+
+Route::get('/season/{season}/{year}', [SeasonController::class, 'show'])->name('season.show');
 
 require __DIR__.'/auth.php';
