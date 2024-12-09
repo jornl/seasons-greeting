@@ -30,22 +30,22 @@ export default function Show({ season, year }: ShowProps) {
           </p>
           <figure className="mt-3">
             <img
-              src="/storage/20240207_161817.webp"
-              alt="Gran Canaria båttur"
-              className="my-0 rounded-lg"
-            />
-            <figcaption className="text-accent mt-1">
-              Båttur i Gran Canaria.
-            </figcaption>
-          </figure>
-          <figure className="mt-3">
-            <img
               src="/storage/20240206_105543.webp"
               alt="Guidet tur på Gran Canaria"
               className="my-0 rounded-lg"
             />
             <figcaption className="text-accent mt-1">
               Guidet tur på Gran Canaria.
+            </figcaption>
+          </figure>
+          <figure className="mt-3">
+            <img
+              src="/storage/20240207_161817.webp"
+              alt="Gran Canaria båttur"
+              className="my-0 rounded-lg"
+            />
+            <figcaption className="text-accent mt-1">
+              Båttur i Gran Canaria.
             </figcaption>
           </figure>
         </div>
@@ -226,6 +226,13 @@ export default function Show({ season, year }: ShowProps) {
         <p>
           Jula i år skal vi tilbringe på Gran Canaria, det gledes stort, og vi
           er veldig spent på hvordan det blir å oppleves med sol i jula 🌞
+        </p>
+
+        <p>
+          Ølene dere har fått i år, er en Juleøl med lakrissmak (svartboks), en
+          Surøl med smak av mango (hvitboks), og en enkel Skjærgårdsøl
+          (sølvboks). Vi har også testet noen nye lokk i år, disse var litt
+          vanskeligere å åpne. Men gjorde det veldig enkelt å fylle glasset. 😉
         </p>
       </div>
     </SeasonLayout>
